@@ -1,0 +1,1 @@
+console.log(calprice(num1));
