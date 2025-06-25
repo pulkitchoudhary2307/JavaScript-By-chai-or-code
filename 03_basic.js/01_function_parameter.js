@@ -28,10 +28,13 @@ console.log("result:",result);
 // Function
 
 function loginUser (username){
-    if (username === undefined)
-        console.log ("please enter the name");
-    return
-}
-console.log ("just logged in")
+//     if (username === undefined)
+//         console.log ("please enter the name");
+//     return
+// }
 
-console.log(loginUser())
+return`${username} just logged in `// direct return 
+}
+// console.log ("just logged in")
+
+// console.log(loginUser())
