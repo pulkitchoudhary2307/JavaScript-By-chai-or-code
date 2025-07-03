@@ -1,1 +1,1 @@
-console.log(calprice(num1));
+const b = 20 
