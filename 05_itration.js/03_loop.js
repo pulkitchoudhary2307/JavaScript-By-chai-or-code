@@ -22,5 +22,15 @@ map.set("age", 20); //that are doesnot conent dublicate value and key
 console.log(map);
 
 for (const [personal,details] of map) {
-    console.log(personal, ':-', details);    
+    console.log(personal, ':-', details);
+    
+}
+
+const myObject = {
+    'city1': 'nagpur',
+    'city2':'badoda',
+}
+
+for (const [key, value] of Object){
+    console.log(key, ':-', value); 
 }
