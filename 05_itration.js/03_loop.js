@@ -19,7 +19,7 @@ map.set("age", 20);
 map.set("country", "India");
 map.set("age", 20); //that are doesnot conent dublicate value and key
 
-console.log(map);
+// console.log(map);
 
 for (const [personal,details] of map) {
     console.log(personal, ':-', details);
@@ -27,10 +27,10 @@ for (const [personal,details] of map) {
 }
 
 const myObject = {
-    'city1': 'nagpur',
-    'city2':'badoda',
+    city1: 'nagpur',
+    city2:'badoda',
 }
 
-for (const [key, value] of Object){
-    console.log(key, ':-', value); 
-}
+// for (const [personal,details] of Object){
+//     console.log(personal, ':-', details); 
+// } does not work
